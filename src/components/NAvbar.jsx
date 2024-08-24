@@ -15,7 +15,7 @@ const NAvbar = () => {
                 {/* search icon*/}
               </div>
               <div>
-                {/*MenuIcon*/}
+                {/*MenuIcon...*/}
               </div>
               <div>
                 
