@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Imgrefresher from "./images/logo.avif";
 const NAvbar = () => {
   return (
     <div>
@@ -17,8 +17,13 @@ const NAvbar = () => {
               <div>
                 {/*MenuIcon...*/}
               </div>
-              <div>
-                
+              <div className="bad search">
+                {/*searchIcon*/}
+                 {/*LocalIcon*/}
+            
+              </div>
+              <div> 
+               <img src="{Imgrefresher} " alt=" "/> 
               </div>
             </div>
           </div>
@@ -29,7 +34,7 @@ const NAvbar = () => {
        <Link to="/">Login</Link>
        <Link to="/">Signup</Link>
     </div>
-  )
-}
+  );
+};
 
 export default NAvbar
